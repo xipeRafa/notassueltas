@@ -29,13 +29,13 @@ function App() {
 
 
       <Routes>
-        <Route path="/MLJM/" element={<Header />} />
-        <Route path="/MLJM/GRUPO" element={<Grupo />} />
-        <Route path="/MLJM/CENACULOS" element={<Cenaculos />} />
-      
+        <Route path="/notassueltas/" element={<Header />} />
+        {/*<Route path="/MLJM/GRUPO" element={<Grupo />} />*/}
+        <Route path="/notassueltas/CENACULOS" element={<Cenaculos />} />
+     {/* 
         <Route path="/MLJM/CONSAGRACIONES" element={<Consagraciones />} />
 
-        <Route path="/MLJM/MENSAJES" element={<Mensajes />} />
+        <Route path="/MLJM/MENSAJES" element={<Mensajes />} />*/}
 
 
      {/*   <Route path="/RealControlF/licencias" element={<Licencias />} />
