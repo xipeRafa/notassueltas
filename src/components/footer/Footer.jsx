@@ -12,7 +12,7 @@ export default function Footer() {
             <footer>
                   
 				CONTACTO:<br />
-				ifo  <span>📱 662 111 1111</span><br />
+				info  <span>📱 662 111 1111</span><br />
 				<hr />
 
 				correo@gmail.com <br /><br />
