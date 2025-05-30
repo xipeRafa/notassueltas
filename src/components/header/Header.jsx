@@ -3,8 +3,9 @@
 import {useState} from 'react'
 
 import './header.css'
-import mom from "../../imgs/mom.webp";
-import large from "../../imgs/large.webp";
+import n0 from "../../imgs/noticias/n0.webp";
+import n1 from "../../imgs/noticias/n1.webp";
+import n2 from "../../imgs/noticias/n2.webp";
 
 import banner1 from "../../imgs/banner-h-ns.webp";
 
@@ -22,15 +23,44 @@ import publicidad4 from "../../imgs/publicidad4.webp";
 
 export default function Header() {
 
+     const [arr, setArr]=useState([{
+        img:n0,
+        titulo:'TITULO 1',
+        descripcion:'Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                             Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion   Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion',
+        descripcion2:'Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                             Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion   Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion',
+        fecha:'21 de mayo 2021'
+      },{
+        img:n1,
+        titulo:'TITULO 2',
+        descripcion:'Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                             Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion   Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion',
+        descripcion2:'Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                             Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion   Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion',
+        fecha:'22 de mayo 2022'
+      },{
+        img:n2,
+        titulo:'TITULO 3',
+        descripcion:'Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                             Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion   Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion',
+        descripcion2:'Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                             Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion   Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion',
+        fecha:'23 de mayo 2023'
+      }
+    ])
+
+
+
     const [modalState, setModalState]=useState(false)
 
-    const noticiaHandler=(a)=>{
-        localStorage.noticia=a
+
+
+    const[modalInfo, setModalInfo]=useState([{}])
+
+
+    const noticiaHandler=(EL)=>{
+        setModalInfo(EL)
         setModalState(true)
         window.scrollTo(0,0);
     }
 
 
+     
 
 
 
@@ -47,124 +77,52 @@ export default function Header() {
 
 
       <div className="sombra noticias">
-
-            <div className='noticia' onClick={()=>noticiaHandler('n1')}>
+            {arr.map((el,i)=>(
+              <div key={i} className='noticia' onClick={()=>noticiaHandler([el])}>
                 <div>
-                    <img src={large}/>
+                    <img src={el.img}/>
                 </div>
                 <div>
 
-                    <div className="titulo">TITULO TITULO TITULO TITULO TITULO TITULO TITULO TITULO TITULO TITULO TITULO TITULO</div>
+                    <div className="titulo">{el.titulo}</div>
 
-                    <div className="descripcion">Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion</div>
+                    <div className="descripcion">{el.descripcion}</div>
 
-                    <div className="fecha">Fecha 1</div>
+                    <div className="fecha">{el.fecha}</div>
                 </div>
-            </div>
+              </div>
 
-
-            <div className='noticia' onClick={()=>noticiaHandler('n2')}>
-                <div>
-                    <img src={large}/>
-                </div>
-                <div>
-
-                    <div className="titulo">TITULO TITULO TITULO TITULO TITULO TITULO TITULO TITULO TITULO TITULO TITULO TITULO</div>
-
-                    <div className="descripcion">Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion</div>
-
-                    <div className="fecha">Fecha 2</div>
-                </div>
-            </div>
-
-           
+            ))}
       </div>
 
 
         <div className={modalState ? 'modalNoticia' : 'display-none'}>
+          
                   <div className='publicidadModal1'>
                          <img src={publicidad2} style={{width:'60%'}}/>
                   </div>
 
+                  {modalInfo?.map((el,i)=>(
 
-                  <div className='ModalNoticiaInfo'>
+                  <div key={i} className='ModalNoticiaInfo'>
                       <button className='regresar' onClick={()=>setModalState(false)}> ⇦ REGRESAR</button>
 
-                      <div className="tituloModal">TITULO TITULO TITU
-                        LO TITULO TITULO TITULO TITULO TITULO TITULO TITULO TITULO TITULO</div>
+                      <div className="tituloModal">{el.titulo}</div>
 
-                      <div className="fechaModal">Fecha</div>
+                      <div className="fechaModal">{el.fecha}</div>
 
-                      <img src={large} style={{width:'80%'}}/>
+                      <img src={el.img} style={{width:'80%'}}/>
 
-                      <div className="descripcionModal">Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion</div>
+                      <div className="descripcionModal">{el.descripcion}</div>
 
                       <img src={publicidad4} style={{width:'80%'}}/>
 
-                       <div className="descripcionModal">Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion Descripcion 
-                      Descripcion Descripcion Descripcion Descripcion</div>
+                       <div className="descripcionModal">{el.descripcion2}</div>
 
                       <img src={banner1} style={{width:'80%'}}/>
                 </div>
+
+                 ))}
 
                 <div className='publicidadModal2'>
                          <img src={publicidad3} style={{width:'80%'}}/>

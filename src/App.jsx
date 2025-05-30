@@ -1,7 +1,7 @@
 
 
 import "./css/App.css";
-import img1 from "./imgs/rc1.png";
+import publicidad0 from "./imgs/publicidad0.png";
 import publicidad1 from "./imgs/publicidad1.webp";
 import whatsapp from "./imgs/descargar.png";
 
@@ -27,7 +27,7 @@ function App() {
     <div className="containerApp">
       <Navbar />
 
- <div className="publicidad1 sombra" >
+      <div className="publicidad1 sombra" >
         <img src={publicidad1}  />
       </div>
 
@@ -44,15 +44,15 @@ function App() {
      {/*   <Route path="/RealControlF/licencias" element={<Licencias />} />
         <Route path="/RealControlF/clientes" element={<Clientes />} />
 
-        <Route path="/RealControlF/contacto" element={<Contacto />} />
+        <Route path="/RealControlF/contacto" element={<Contacto />} />*/}
 
-        <Route path="*" element={<Header />} />*/}
+        <Route path="*" element={<Header />} />
 
       </Routes>
 
 
       <div className="sombra" style={{margin:'140px 0'}}>
-        <img src={img1} />
+        <img src={publicidad0} />
       </div>
 
     {/*  <a href="https://api.whatsapp.com/send?phone=5216621942066&text=¡Hola, Me Comunico desde su Página Web!" target='_blank'>

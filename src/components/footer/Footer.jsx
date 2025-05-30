@@ -15,12 +15,13 @@ export default function Footer() {
 				info  <span>📱 662 111 1111</span><br />
 				<hr />
 
-				correo@gmail.com <br /><br />
-
-				<a href="" target='_blank'>
+				<a href="" target='_blank'> 
 					FACEBOOK ↗
 				</a>
 
+				<br />
+
+				correo@gmail.com 
 				<hr />
 
                 Horario: <br />
