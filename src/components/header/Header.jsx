@@ -32,6 +32,7 @@ const scrollToTopDiv = () => {
     });
 
     window.scrollTo(0,0)
+    console.log('sss')
   };
 
 
@@ -69,7 +70,6 @@ const scrollToTopDiv = () => {
     const noticiaHandler=(EL)=>{
         setModalInfo(EL)
         setModalState(true)
-        window.scrollTo(0,0)
     }
 
 
@@ -114,7 +114,7 @@ const scrollToTopDiv = () => {
           <div className={modalState ? 'modalNoticia' : 'display-none'} ref={divRef}>
 
                   <div className='publicidadModal1'>
-                         <img src={publicidad2} style={{width:'60%'}}/>
+                         <img src={publicidad3} style={{width:'80%'}}/>
                   </div>
 
                   {modalInfo?.map((el,i)=>(
@@ -136,13 +136,14 @@ const scrollToTopDiv = () => {
 
                       <img src={banner1} style={{width:'80%'}}/>
 
-                      <button className='regresar' onClick={()=>{setModalState(false), scrollToTopDiv()}}> ⇦ REGRESAR</button>
+                      <button className='regresar regresarBottom1' onClick={()=>{setModalState(false), scrollToTopDiv()}}> ⇦ REGRESAR</button>
                 </div>
 
                  ))}
 
                 <div className='publicidadModal2'>
-                         <img src={publicidad3} style={{width:'80%'}}/>
+                         <img src={publicidad2} style={{width:'60%'}}/>
+                         <button className='regresar regresarBottom2' onClick={()=>{setModalState(false), scrollToTopDiv()}}> ⇦ REGRESAR</button>
                 </div>
 
           </div>

@@ -158,7 +158,7 @@ header>h2{
       display: none;
     }*/
     .modalNoticia{
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
     .publicidadModal1{
       width: 100%;
@@ -185,6 +185,11 @@ header>h2{
     .descripcionModal{
       padding: 0 4px;
     }
+
+    .regresarBottom1{
+        display: none;
+}
+
 }
 
 
@@ -194,6 +199,11 @@ header>h2{
 }
 
 
+@media(min-width:1100px){
+  .regresarBottom2{
+    display: none;
+  }
+}
 
 
 
