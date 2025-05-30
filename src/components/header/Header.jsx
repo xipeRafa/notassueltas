@@ -114,7 +114,7 @@ const scrollToTopDiv = () => {
           <div className={modalState ? 'modalNoticia' : 'display-none'} ref={divRef}>
 
                   <div className='publicidadModal1'>
-                         <img src={publicidad3} style={{width:'80%'}}/>
+                         <img src={publicidad3} />
                   </div>
 
                   {modalInfo?.map((el,i)=>(
