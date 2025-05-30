@@ -75,7 +75,6 @@ header>h2{
   .titulo{
     font-size: 26px;
   }
-
   .descripcion{
     
   }
@@ -92,13 +91,20 @@ header>h2{
 }
 
 
+
+
+
+
 .modalNoticia{
     background-color: var(--gray-200);
-    position: absolute;
+    position: fixed;
     top:0;
     left: 0;
     padding: 0 40px;
     display: flex;
+    /*border-bottom: 220vh solid var(--gray-200);*/
+    overflow-y: scroll;
+    height: 100vh;
 }
 
 .modalNoticia>div>*{
@@ -186,7 +192,6 @@ header>h2{
 .display-none{
   display: none;
 }
-
 
 
 

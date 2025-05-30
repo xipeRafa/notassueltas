@@ -1,6 +1,6 @@
 
 
-import {useState} from 'react'
+import {useState, useRef} from 'react'
 
 import './header.css'
 import n0 from "../../imgs/noticias/n0.webp";
@@ -20,8 +20,21 @@ import publicidad4 from "../../imgs/publicidad4.webp";
 
 
 
-
 export default function Header() {
+
+
+  const divRef = useRef();
+
+const scrollToTopDiv = () => {
+    divRef.current.scroll({
+      top: 0,
+      // behavior: "smooth"
+    });
+
+    window.scrollTo(0,0)
+  };
+
+
 
      const [arr, setArr]=useState([{
         img:n0,
@@ -56,8 +69,10 @@ export default function Header() {
     const noticiaHandler=(EL)=>{
         setModalInfo(EL)
         setModalState(true)
-        window.scrollTo(0,0);
+        window.scrollTo(0,0)
     }
+
+
 
 
      
@@ -96,8 +111,8 @@ export default function Header() {
       </div>
 
 
-        <div className={modalState ? 'modalNoticia' : 'display-none'}>
-          
+          <div className={modalState ? 'modalNoticia' : 'display-none'} ref={divRef}>
+
                   <div className='publicidadModal1'>
                          <img src={publicidad2} style={{width:'60%'}}/>
                   </div>
@@ -105,7 +120,7 @@ export default function Header() {
                   {modalInfo?.map((el,i)=>(
 
                   <div key={i} className='ModalNoticiaInfo'>
-                      <button className='regresar' onClick={()=>setModalState(false)}> ⇦ REGRESAR</button>
+                      <button className='regresar' onClick={()=>{setModalState(false), scrollToTopDiv()}}> ⇦ REGRESAR</button>
 
                       <div className="tituloModal">{el.titulo}</div>
 
@@ -120,25 +135,17 @@ export default function Header() {
                        <div className="descripcionModal">{el.descripcion2}</div>
 
                       <img src={banner1} style={{width:'80%'}}/>
+
+                      <button className='regresar' onClick={()=>{setModalState(false), scrollToTopDiv()}}> ⇦ REGRESAR</button>
                 </div>
 
                  ))}
 
                 <div className='publicidadModal2'>
                          <img src={publicidad3} style={{width:'80%'}}/>
-                  </div>
+                </div>
 
-                
-        </div>
-
-            
-      <br /> 
-
-            
-     
-  
-
-
+          </div>
 
   </header>
 
