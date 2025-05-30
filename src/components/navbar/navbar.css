@@ -21,7 +21,9 @@
     font-size: 12px;
     text-transform: uppercase;
     padding: 0px;
-    background-color: var(--logoColor);
+    /*background-color: var(--logoColor);*/
+
+    background: linear-gradient(90deg, rgba(63, 115, 235, 1) 0%, rgba(30, 73, 217, 1) 51%, rgba(15, 49, 163, 1) 100%);
     user-select: none;
   
 
@@ -34,7 +36,9 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    background-color: var(--logoColor);
+    /*background-color: var(--logoColor);*/
+        background: linear-gradient(90deg, rgba(63, 115, 235, 1) 0%, rgba(30, 73, 217, 1) 51%, rgba(15, 49, 163, 1) 100%);
+
     align-items: center;
     cursor: pointer;
     user-select: none;
@@ -87,6 +91,17 @@
     left: 0;
     transition: .4s;
 }
+
+
+@media (min-width: 1000px) {
+   .display {
+        flex-direction: row;
+    }
+}
+
+
+
+
 
 .navBar a {
     color: rgb(255, 255, 255);

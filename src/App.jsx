@@ -2,6 +2,7 @@
 
 import "./css/App.css";
 import img1 from "./imgs/rc1.png";
+import publicidad1 from "./imgs/publicidad1.webp";
 import whatsapp from "./imgs/descargar.png";
 
 
@@ -26,7 +27,9 @@ function App() {
     <div className="containerApp">
       <Navbar />
 
-
+ <div className="publicidad1 sombra" >
+        <img src={publicidad1}  />
+      </div>
 
       <Routes>
         <Route path="/notassueltas/" element={<Header />} />
@@ -48,8 +51,8 @@ function App() {
       </Routes>
 
 
-      <div className="sombra">
-        <img src={img1} style={{ marginBottom: "20px" }} />
+      <div className="sombra" style={{margin:'140px 0'}}>
+        <img src={img1} />
       </div>
 
     {/*  <a href="https://api.whatsapp.com/send?phone=5216621942066&text=¡Hola, Me Comunico desde su Página Web!" target='_blank'>

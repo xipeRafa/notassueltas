@@ -10,41 +10,188 @@ header{
 
 
 header>span{
-  color:var(--gold);
+  color:var(--orange);
   font-style: oblique;
   font-weight: bold;
   font-size: 40px;
 }
 
 
-
-.imgsHeader1{
-    display: block;
+header>h2{
+  font-size: 60px;
+  font-family: serif!important;
 }
-
-.imgsHeader2{
-  display: none;
-}
-
-
 
 
 @media(max-width:900px){
+
   header>p{
     font-size: 17px;
   }
 
+  header{
+    padding: 40px 10px;
+  }
 
-.imgsHeader1{
+}
+
+
+.noticias{
+  padding: 4px;
+}
+
+.noticia{
+  margin: 4px;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.noticia>div>img{
+  width: 310px;
+}
+
+.titulo{
+  font-size: 36px;
+  padding: 4px;
+  color: var(--gray-dark);
+}
+
+.descripcion{
+  height: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 4px;
+  color: var(--gray-600);
+}
+
+
+.fecha{
+   color: var(--gray-500);
+}
+
+@media(max-width:1260px){
+  .titulo{
+    font-size: 26px;
+  }
+
+  .descripcion{
+    
+  }
+}
+
+
+@media(max-width:900px){
+  .noticia{
+    flex-direction: column;
+  }
+  .noticia{
+    height: auto;
+  }
+}
+
+
+.modalNoticia{
+    background-color: var(--gray-200);
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 0 40px;
+    display: flex;
+}
+
+.modalNoticia>div>*{
+    margin-bottom: 40px;
+}
+
+.regresar{
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.ModalNoticiaInfo{
+  padding: 0 20px;
+  width: 60%;
+}
+
+.publicidadModal1{
+  margin-top: 200px;
+  width: 20%;
+}
+
+.publicidadModal1>img{
+  position: sticky;
+  top: 20px;
+}
+
+.publicidadModal2{
+  margin-top: 200px;
+  width: 20%;
+}
+
+.publicidadModal2>img{
+  position: sticky;
+  top: 20px;
+}
+
+
+.tituloModal{
+  font-size: 36px;
+  padding: 0 44px;
+  color: var(--gray-dark);
+}
+
+.descripcionModal{
+  padding: 0 44px;
+  color: var(--gray-800);
+}
+
+@media(max-width:1100px){
+    /*.publicidadModal1, .publicidadModal2{
+      display: none;
+    }*/
+    .modalNoticia{
+      flex-direction: column-reverse;
+    }
+    .publicidadModal1{
+      width: 100%;
+      margin-top:0;
+    }
+     .publicidadModal2{
+      width: 70%;
+      margin-left: 15%;
+      margin-top:0;
+    }
+    .modalNoticia>div>img{
+      margin-bottom: 20px;
+    }
+
+
+    .ModalNoticiaInfo{
+      width: 100%;
+      padding: 0px;
+    }
+    .tituloModal{
+      font-size: 26px;
+      padding: 0px;
+    } 
+    .descripcionModal{
+      padding: 0 4px;
+    }
+}
+
+
+
+.display-none{
   display: none;
 }
 
-.imgsHeader2{
-  display: block;
-}
 
-header{
-  padding: 40px 10px;
-}
 
-}
+
+
+
+
+
+
