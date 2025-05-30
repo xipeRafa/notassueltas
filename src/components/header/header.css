@@ -11,7 +11,7 @@ header{
 
 header>span{
   color:var(--orange);
-  font-style: oblique;
+  /*font-style: oblique;*/
   font-weight: bold;
   font-size: 40px;
 }
@@ -20,6 +20,7 @@ header>span{
 header>h2{
   font-size: 60px;
   font-family: serif!important;
+  margin-top:0 ;
 }
 
 
@@ -75,9 +76,7 @@ header>h2{
   .titulo{
     font-size: 26px;
   }
-  .descripcion{
-    
-  }
+
 }
 
 
@@ -118,35 +117,41 @@ header>h2{
 
 .ModalNoticiaInfo{
   padding: 0 20px;
-  width: 60%;
+  width: 64%;
 }
 
 .publicidadModal1{
   margin-top: 200px;
-  width: 20%;
-}
-
-.publicidadModal1>img{
   position: sticky;
-  top: 20px;
-  width: 80%;
+  top: 40px;
+  width: 18%;
 }
 
 .publicidadModal2{
   margin-top: 200px;
-  width: 20%;
+  position: sticky;
+  top: 40px;
+  width: 18%;
 }
 
-.publicidadModal2>img{
-  position: sticky;
-  top: 20px;
-}
+
 
 
 .tituloModal{
   font-size: 36px;
   padding: 0 44px;
   color: var(--gray-dark);
+  background-color: white;
+  margin-bottom: 0!important;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.fechaModal{
+margin-bottom: 18px!important;
+background-color: white;
+  width: 90%;
+  margin-left: 5%;
 }
 
 .descripcionModal{
@@ -155,15 +160,16 @@ header>h2{
 }
 
 @media(max-width:1100px){
-    /*.publicidadModal1, .publicidadModal2{
-      display: none;
-    }*/
+
     .modalNoticia{
       flex-direction: column;
+      padding: 0;
     }
     .publicidadModal1{
-      width: 100%;
-      margin-top:0;
+      width: 90%;
+      margin-left: 5%;
+      position: static;
+      margin-top: 20px;
     }
      .publicidadModal2{
       width: 70%;

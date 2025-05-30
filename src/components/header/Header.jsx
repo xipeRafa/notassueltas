@@ -113,9 +113,9 @@ const scrollToTopDiv = () => {
 
           <div className={modalState ? 'modalNoticia' : 'display-none'} ref={divRef}>
 
-                  <div className='publicidadModal1'>
+                    <div className='publicidadModal1'>
                          <img src={publicidad3} />
-                  </div>
+                          </div>
 
                   {modalInfo?.map((el,i)=>(
 
@@ -126,7 +126,7 @@ const scrollToTopDiv = () => {
 
                       <div className="fechaModal">{el.fecha}</div>
 
-                      <img src={el.img} style={{width:'80%'}}/>
+                      <img src={el.img} style={{width:'90%'}} className='sombra'/>
 
                       <div className="descripcionModal">{el.descripcion}</div>
 
@@ -134,7 +134,7 @@ const scrollToTopDiv = () => {
 
                        <div className="descripcionModal">{el.descripcion2}</div>
 
-                      <img src={banner1} style={{width:'80%'}}/>
+                      <img src={banner1} />
 
                       <button className='regresar regresarBottom1' onClick={()=>{setModalState(false), scrollToTopDiv()}}> ⇦ REGRESAR</button>
                 </div>
@@ -142,7 +142,7 @@ const scrollToTopDiv = () => {
                  ))}
 
                 <div className='publicidadModal2'>
-                         <img src={publicidad2} style={{width:'60%'}}/>
+                         <img src={publicidad2}/>
                          <button className='regresar regresarBottom2' onClick={()=>{setModalState(false), scrollToTopDiv()}}> ⇦ REGRESAR</button>
                 </div>
 
