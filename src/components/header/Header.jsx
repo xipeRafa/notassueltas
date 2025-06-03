@@ -79,20 +79,54 @@ const scrollToTopDiv = () => {
           {d:'Ahora, más que nunca, la ciudadanía tiene la oportunidad y la responsabilidad de involucrarse, de exigir resultados y de entender que la justicia es un asunto que nos concierne a todos. Porque, al final del día, el verdadero cambio no depende únicamente de quienes ocupan las sillas del tribunal, sino de la voluntad colectiva de construir una sociedad más justa, donde la ley sea respetada y la dignidad humana sea defendida por encima de todo.'}
         ],
         fecha:'1 de Junio de 2025'
-      },{
+      },
+
+      {
         img:n1,
-        titulo:'TITULO 2',
-        descripcionHeader:'2',
-        descripcion:[{d:''}],
-        descripcion2:'Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                             Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion   Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion',
+        titulo:'Sonora en crecimiento: la fuerza de su economía en 2025',
+        descripcionHeader:'Sonora, tierra de sol y de oportunidades, ha comenzado 2025 con cifras que confirman su posición como uno de los motores económicos más importantes del norte de México. Desde la minería y la agricultura hasta el turismo y la innovación tecnológica, el estado ha sabido combinar tradición y modernidad para construir un panorama económico sólido y en expansión.',
+        descripcion:[
+          {d:'Sonora, tierra de sol y de oportunidades, ha comenzado 2025 con cifras que confirman su posición como uno de los motores económicos más importantes del norte de México. Desde la minería y la agricultura hasta el turismo y la innovación tecnológica, el estado ha sabido combinar tradición y modernidad para construir un panorama económico sólido y en expansión.'},
+          {d:'Según datos recientes de la Secretaría de Economía estatal, Sonora alcanzó un récord histórico en su Indicador Anualizado de la Actividad Económica, llegando a los 105.8 puntos al cierre de 2024. Este crecimiento refleja no solo la recuperación tras la pandemia, sino también la consolidación de políticas públicas que han impulsado la inversión, la competitividad y la inclusión social.'},
+          {d:'Minería: el corazón de la economía sonorense'},
+          {d:'La minería sigue siendo la columna vertebral de la economía de Sonora. Con más de 100 proyectos mineros activos, el estado produce el 34% del cobre a nivel nacional y es uno de los principales exportadores de oro y plata. Empresas como Grupo México y Fresnillo plc han reforzado sus operaciones en la región, generando empleos directos e indirectos y fortaleciendo las cadenas productivas locales.'},
+          {d:'Este sector, sin embargo, no está exento de retos. Las preocupaciones ambientales y las demandas de las comunidades han llevado a que el gobierno estatal y las empresas mineras intensifiquen sus esfuerzos de responsabilidad social. Expertos como la economista Lourdes Martínez subrayan que el verdadero crecimiento económico debe ir de la mano de un desarrollo sustentable que respete los derechos de las comunidades y los ecosistemas locales.'},
+          {d:'Agricultura y agroindustria: del campo al mercado global'},
+          {d:'Sonora también destaca como un líder nacional en la producción agrícola. Sus campos producen más de 10 millones de toneladas de trigo, espárrago, uva, cítricos y hortalizas que abastecen tanto el mercado interno como las exportaciones hacia Estados Unidos y Canadá.'},
+          {d:'La agroindustria sonorense, además, ha logrado posicionarse como un sector estratégico en la cadena de valor, generando empleo en zonas rurales y contribuyendo a la estabilidad económica de miles de familias.'},
+          {d:'No obstante, la sequía y la falta de agua siguen siendo desafíos críticos para el sector agrícola. La región enfrenta una crisis hídrica que ha llevado a la búsqueda de soluciones innovadoras, como la tecnificación de riego y la implementación de proyectos de reúso de agua. Estas iniciativas no solo son vitales para garantizar la continuidad de las actividades productivas, sino también para asegurar la sustentabilidad a largo plazo.'},
+          {d:'Turismo: la fuerza de la hospitalidad sonorense'},
+          {d:'El turismo, aunque no es el principal motor de la economía estatal, ha experimentado un crecimiento sostenido en los últimos años. Destinos como Puerto Peñasco, San Carlos y Álamos se han consolidado como puntos de atracción tanto para el turismo nacional como para el internacional.'},
+          {d:'La Secretaría de Turismo de Sonora reportó que en 2024 se registró un incremento del 15% en la llegada de visitantes en comparación con 2023, lo que se traduce en una mayor derrama económica para comunidades locales y una reactivación de servicios como la hotelería, la gastronomía y el comercio artesanal.'},
+          {d:'El reto para este sector, según la analista de turismo Carolina Sánchez, es mantener la calidad y sostenibilidad de los destinos, especialmente en zonas costeras donde el crecimiento turístico debe equilibrarse con la protección de los ecosistemas marinos y la identidad cultural de las comunidades.'},
+          {d:'Innovación tecnológica: la nueva frontera económica'},
+          {d:'En los últimos años, Sonora ha comenzado a perfilarse como un estado que apuesta por la innovación y la tecnología como motores de su desarrollo económico. Proyectos como el Distrito de Innovación de Hermosillo y la llegada de empresas tecnológicas nacionales e internacionales han creado un ambiente propicio para el emprendimiento y la transferencia de conocimiento.'},
+          {d:'Las universidades y centros de investigación, como la Universidad de Sonora y el Tecnológico de Monterrey campus Sonora Norte, han impulsado programas de formación en áreas como energías limpias, inteligencia artificial y biotecnología. Esto no solo fomenta la competitividad de los jóvenes sonorenses, sino que también fortalece la economía del conocimiento, abriendo oportunidades para diversificar la base productiva del estado.'},
+          {d:'El secretario de Economía de Sonora, Armando Villa, ha destacado que uno de los objetivos principales de su administración es lograr que el estado no dependa exclusivamente de sectores tradicionales como la minería o la agricultura, sino que se convierta en un hub de innovación y desarrollo tecnológico para la región norte del país.'},
+         
+        ],
+
+
+
+
+
+        descripcion2:[ 
+          {d:'Retos persistentes: desigualdad y sostenibilidad'},
+          {d:'A pesar de los avances y las cifras positivas, la economía de Sonora enfrenta desafíos estructurales que no pueden ser ignorados. La desigualdad social y la brecha entre zonas urbanas y rurales siguen siendo una realidad para miles de familias. Según el Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL), aunque la pobreza extrema ha disminuido ligeramente en los últimos cinco años, más del 20% de la población aún carece de acceso a servicios básicos y oportunidades de desarrollo.'},
+          {d:'La sostenibilidad ambiental también es un punto clave en la agenda económica. El crecimiento de sectores como la minería y la agricultura intensiva ha generado tensiones con comunidades indígenas y organizaciones ambientalistas, que reclaman mayor participación en la toma de decisiones y respeto por los recursos naturales.'},
+          {d:'Para la investigadora Rosaura Medina, especialista en desarrollo sustentable, “Sonora tiene un enorme potencial económico, pero debe ser gestionado con una visión de justicia social y ambiental que asegure que el crecimiento beneficie a todas las personas y no destruya el patrimonio natural del estado”.'},
+          {d:'Opiniones ciudadanas: confianza y cautela'},
+          {d:'En las calles de Hermosillo, Guaymas y Navojoa, las reacciones ante el auge económico son mixtas. Mientras que empresarios y comerciantes expresan optimismo por las oportunidades de inversión y empleo, trabajadores agrícolas y habitantes de comunidades mineras siguen reclamando mejores condiciones laborales y mayor protección social.'},
+          {d:'“Vemos que hay dinero, que hay proyectos, pero muchas veces no llegan hasta nosotros”, comenta Juan Valenzuela, trabajador agrícola en la costa de Hermosillo. Por otro lado, Patricia Salcido, propietaria de una pequeña cafetería en el centro histórico, destaca cómo el turismo y la cultura han dinamizado la economía local. “Ahora tenemos más clientes y más oportunidades para crecer”, afirma.'},
+          {d:'Estas voces reflejan la complejidad del momento económico que vive Sonora: una región en expansión, pero que aún debe asegurar que sus frutos se repartan de manera más equitativa.'},
+          {d:'Perspectivas y futuro de la economía sonorense'},
+          {d:'De cara a los próximos años, expertos coinciden en que Sonora tiene la oportunidad de consolidarse como un estado líder en desarrollo económico en el norte de México. El reto será balancear el impulso de sectores tradicionales con la innovación, garantizar un crecimiento sostenible e incluyente y mantener la confianza de la ciudadanía y de los inversionistas.'},
+          {d:'El secretario de Economía estatal ha anunciado que en 2025 se lanzará un programa integral de apoyo a las micro, pequeñas y medianas empresas (MiPyMEs), con financiamiento y capacitación para fortalecer el tejido económico local. Además, se espera la firma de acuerdos de colaboración con empresas tecnológicas para impulsar la transformación digital en el sector agropecuario y en la industria manufacturera.'},
+          {d:'Estos esfuerzos, sin embargo, solo tendrán éxito si están acompañados de una ciudadanía activa y una política económica que ponga en el centro a las personas y al medio ambiente. Como señala la analista Carolina Sánchez, “Sonora tiene la oportunidad de demostrar que el crecimiento económico no es solo una cifra, sino una herramienta para mejorar la vida de todos sus habitantes”.'},
+          {d:'Conclusión'},
+          {d:'Sonora ha iniciado el 2025 con un panorama económico alentador: minería fuerte, agricultura de exportación, turismo en expansión e innovación tecnológica en ciernes. Sin embargo, este crecimiento debe ser vigilado y dirigido para que no se quede en manos de unos pocos, sino que sea una verdadera palanca de desarrollo social, humano y ambiental para toda la región.'},
+          {d:'La fuerza de la economía sonorense radica, al final, en su gente: en los productores del campo, los trabajadores de la industria, los emprendedores tecnológicos y las comunidades que día a día construyen el presente y el futuro de este estado.'}],
         fecha:'22 de mayo 2022'
-      },{
-        img:n2,
-        titulo:'TITULO 3',
-        descripcionHeader:'3',
-        descripcion:[{d:''}],
-        descripcion2:'Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                             Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion                      Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion   Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion Descripcion',
-        fecha:'23 de mayo 2023'
       }
     ])
 
