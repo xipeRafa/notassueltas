@@ -54,9 +54,10 @@ header>h2{
 }
 
 .titulo{
-  font-size: 36px;
+  font-size: 30px;
   padding: 4px;
   color: var(--gray-dark);
+  text-transform: uppercase;
 }
 
 .descripcion{
@@ -65,6 +66,7 @@ header>h2{
   text-overflow: ellipsis;
   padding: 4px;
   color: var(--gray-600);
+  /*text-align: left;*/
 }
 
 
@@ -83,6 +85,7 @@ header>h2{
 @media(max-width:900px){
   .noticia{
     flex-direction: column;
+    margin-bottom: 80px;
   }
   .noticia{
     height: auto;
@@ -138,13 +141,14 @@ header>h2{
 
 
 .tituloModal{
-  font-size: 36px;
+  font-size: 30px;
   padding: 0 44px;
   color: var(--gray-dark);
   background-color: white;
   margin-bottom: 0!important;
   width: 90%;
   margin-left: 5%;
+  text-transform: uppercase;
 }
 
 .fechaModal{
@@ -157,6 +161,9 @@ background-color: white;
 .descripcionModal{
   padding: 0 44px;
   color: var(--gray-800);
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 26px!important;
 }
 
 @media(max-width:1100px){
@@ -190,7 +197,11 @@ background-color: white;
       padding: 0px;
     } 
     .descripcionModal{
-      padding: 0 4px;
+      padding: 0 8px;
+      font-size: 14px;
+
+margin-bottom: 14px!important;
+text-align: left;
     }
 
     .regresarBottom1{
