@@ -37,7 +37,7 @@ const scrollToTopDiv = () => {
 
      const [arr, setArr]=useState([{
         img:n0,
-        titulo:'Reacciones y posturas: voces a favor y en contra',
+        titulo:'Justicia en manos del pueblo: elecciones judiciales en Sonora',
         descripcionHeader:'Las reacciones tras la jornada electoral no se hicieron esperar. Desde el Ejecutivo estatal, el gobernador Alfonso Durazo reconoció el esfuerzo de la ciudadanía que salió a participar y expresó su confianza en que los nuevos ministros aportarán a la transformación de la justicia en el estado. “Es un paso firme hacia una justicia más cercana a la gente”, declaró durante una rueda de prensa posterior al conteo preliminar.',
         descripcion:[
           {d:'El pasado 1 de junio de 2025, México vivió un momento histórico al celebrar por primera vez elecciones para renovar más de 2,600 cargos del Poder Judicial, incluyendo ministros de la Suprema Corte, magistrados y jueces federales y locales. Este proceso, impulsado por la reforma constitucional de 2024, busca abrir las puertas de la justicia a la participación ciudadana y democratizar uno de los poderes más importantes del Estado.'}, 
