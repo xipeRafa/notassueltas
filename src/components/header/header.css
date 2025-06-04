@@ -61,9 +61,8 @@ header>h2{
 }
 
 .descripcion{
-  height: 90px;
+  height: 100px;
   overflow: hidden;
-  text-overflow: ellipsis;
   padding: 4px;
   color: var(--gray-600);
   /*text-align: left;*/
@@ -78,7 +77,6 @@ header>h2{
   .titulo{
     font-size: 26px;
   }
-
 }
 
 
@@ -116,6 +114,7 @@ header>h2{
 .regresar{
   margin-top: 20px;
   margin-left: auto;
+  margin-bottom: 27px!important;
 }
 
 .ModalNoticiaInfo{
@@ -124,16 +123,16 @@ header>h2{
 }
 
 .publicidadModal1{
-  margin-top: 200px;
+  margin-top: 86px;
   position: sticky;
-  top: 40px;
+  top: 30px;
   width: 18%;
 }
 
 .publicidadModal2{
-  margin-top: 200px;
+  margin-top: 86px;
   position: sticky;
-  top: 40px;
+  top: 30px;
   width: 18%;
 }
 
@@ -149,13 +148,15 @@ header>h2{
   width: 90%;
   margin-left: 5%;
   text-transform: uppercase;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .fechaModal{
-margin-bottom: 18px!important;
-background-color: white;
+  margin-bottom: 18px!important;
+  background-color: white;
   width: 90%;
   margin-left: 5%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .descripcionModal{
@@ -194,7 +195,7 @@ background-color: white;
     }
     .tituloModal{
       font-size: 26px;
-      padding: 0px;
+      padding: 0px 8px;
     } 
     .descripcionModal{
       padding: 0 12px;
@@ -208,10 +209,16 @@ background-color: white;
     }
     .publicidadModal1>img{
       width: 50%;
+      margin-bottom: 0!important;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     }
 
 }
 
+
+.publicidadModal1>img, .publicidadModal2>img, .publicidad4{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
 
 
 .display-none{

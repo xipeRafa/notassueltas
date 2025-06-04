@@ -56,13 +56,14 @@ const scrollToTopDiv = () => {
           {d:'La reforma que permitió estas elecciones fue aprobada en 2024 con el objetivo de transparentar la impartición de justicia y reducir la opacidad en el Poder Judicial. Según sus defensores, abrir los tribunales a la decisión directa de la ciudadanía permitirá que los jueces respondan a las necesidades reales de la población y se mantengan alejados de acuerdos políticos en la cúpula del poder.'},
           {d:'No obstante, críticos como el jurista Alejandro Valenzuela señalan que la reforma tiene un riesgo claro: la politización de la justicia. “Un juez o magistrado debe ser independiente, no estar sujeto a los vaivenes de la opinión pública o de grupos de interés. Hay que tener cuidado de no convertir la justicia en un espacio de competencia política más”, advierte Valenzuela.'},
           {d:'En el contexto de Sonora, estas preocupaciones se amplifican debido a los problemas estructurales que enfrenta el estado: altos índices de inseguridad, desigualdad social, corrupción y falta de confianza en las instituciones. Si la ciudadanía no percibe un verdadero cambio en el funcionamiento del Poder Judicial, la legitimidad de estos nuevos jueces y magistrados podría verse cuestionada.'},
+          
+        ],
+
+        descripcion2:[
           {d:'Reacciones y posturas: voces a favor y en contra'},
           {d:'Las reacciones tras la jornada electoral no se hicieron esperar. Desde el Ejecutivo estatal, el gobernador Alfonso Durazo reconoció el esfuerzo de la ciudadanía que salió a participar y expresó su confianza en que los nuevos ministros aportarán a la transformación de la justicia en el estado. “Es un paso firme hacia una justicia más cercana a la gente”, declaró durante una rueda de prensa posterior al conteo preliminar.'},
           {d:'Por otro lado, diversas organizaciones de la sociedad civil advirtieron que estos resultados deben ser acompañados de mecanismos de seguimiento y control. Causa Común Sonora, por ejemplo, llamó a vigilar de cerca la actuación de los jueces electos y a exigirles transparencia y rendición de cuentas, especialmente en casos de alto impacto social como feminicidios, desapariciones forzadas y corrupción en la función pública.'},
           {d:'“Si queremos que la justicia sea verdaderamente ciudadana, necesitamos exigir resultados. La elección es solo el primer paso; ahora viene el trabajo de construcción de confianza y credibilidad”, afirmó la abogada y activista María José Peralta.'},
-        ],
-
-        descripcion2:[
           {d:'Voces ciudadanas: entre el Escepticismo y la Esperanza'},
           {d:'En las calles de Hermosillo, Cajeme y Nogales, las opiniones son variadas. Para muchos, la elección pasó casi desapercibida. “Nadie me explicó bien para qué eran estas elecciones, y no conocía a los candidatos”, comentó Francisco Ramírez, comerciante del centro de Hermosillo.'},
           {d:'Sin embargo, hay quienes ven esta apertura como una oportunidad para que los tribunales dejen de ser percibidos como entes lejanos y poco confiables. “Si los jueces saben que tienen que dar la cara a la gente, van a pensarlo dos veces antes de dejarse presionar por intereses políticos”, señaló Alejandra Valdez, estudiante de derecho de la Universidad de Sonora.'},
@@ -219,7 +220,7 @@ console.log(modalInfo)
 
                     <div className='publicidadModal1'>
                          <img src={publicidad3} />
-                          </div>
+                    </div>
 
                   {modalInfo?.map((el,i)=>(
 
@@ -239,7 +240,7 @@ console.log(modalInfo)
                         })
                       }
 
-                      <img src={publicidad4} style={{width:'80%'}}/>
+                      <img className='publicidad4' src={publicidad4} style={{width:'80%'}}/>
 
                       {
                         el?.descripcion2?.map((el,i)=> {
@@ -261,6 +262,8 @@ console.log(modalInfo)
                          <img src={publicidad2}/>
                          <button className='regresar regresarBottom2' onClick={()=>{setModalState(false), scrollToTopDiv()}}> ⇦ REGRESAR</button>
                 </div>
+
+                <br />
 
           </div>
 
