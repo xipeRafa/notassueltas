@@ -3,23 +3,23 @@
 import "./css/App.css";
 import publicidad0 from "./imgs/publicidad0.png";
 import publicidad1 from "./imgs/publicidad1.webp";
-import whatsapp from "./imgs/descargar.png";
+//import whatsapp from "./imgs/descargar.png";
 
 
 import { Routes, Route } from "react-router-dom";
 
-import Footer from "./components/footer/Footer";
-import Navbar from "./components/navbar/Navbar";
-import Grupo from "./components/grupo/Grupo";
-import Header from "./components/header/Header";
-import Consagraciones from "./components/consagraciones/Consagraciones";
 
-import Mensajes from "./components/mensaje/Mensaje";
+import Navbar from "./components/navbar/Navbar";
+//import Grupo from "./components/grupo/Grupo";
+import Header from "./components/header/Header";
+//import Consagraciones from "./components/consagraciones/Consagraciones";
+
+//import Mensajes from "./components/mensaje/Mensaje";
 
 
 // import Contacto from "./components/contacto/Contacto";
 import Cenaculos from "./components/cenaculos/Cenaculos";
-
+import Footer from "./components/footer/Footer";
 
 function App() {
 

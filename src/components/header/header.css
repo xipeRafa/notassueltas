@@ -96,7 +96,7 @@ header>h2{
 
 
 .modalNoticia{
-    background-color: var(--gray-200);
+    background-color: var(--gray-100);
     position: fixed;
     top:0;
     left: 0;
@@ -232,6 +232,10 @@ header>h2{
   }
 }
 
+.ul{
+  padding-left: 50px;
+  list-style: disc;
+}
 
 
 

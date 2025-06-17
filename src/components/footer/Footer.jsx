@@ -4,18 +4,14 @@ import './footer.css'
 
 export default function Footer() {
 
-
-	  return (
-
-
-
+	return (
             <footer>
                   
 				CONTACTO:<br />
 				info  <span>📱 662 111 1111</span><br />
 				<hr />
 
-				<a href="" target='_blank'> 
+				<a href="https://xiperafa.github.io/notassueltas" target='_blank'> 
 					FACEBOOK ↗
 				</a>
 
@@ -34,5 +30,5 @@ export default function Footer() {
 
 
             </footer>
-	  	)
+	)
 }
