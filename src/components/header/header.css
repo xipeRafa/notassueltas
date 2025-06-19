@@ -49,8 +49,12 @@ header>h2{
   margin-bottom: 40px;
 }
 
+.noticia>div{
+  border: 1px solid red;
+}
+
 .noticia>div>img{
-  width: 310px;
+  width: 280px;
 }
 
 .titulo{
@@ -89,6 +93,28 @@ header>h2{
     height: auto;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

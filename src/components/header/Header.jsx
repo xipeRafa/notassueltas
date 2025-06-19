@@ -82,18 +82,21 @@ console.log(modalInfo)
 
       <div className="sombra noticias">
             {arr.map((el,i)=>(
+
               <div key={i} className='noticia' onClick={()=>noticiaHandler([el])}>
+
                 <div>
                     <img src={el.img}/>
                 </div>
-                <div>
 
+                <div>
                     <div className="titulo">{el.titulo}</div>
 
                     <div className="descripcion">{el.descripcionHeader.slice(0, 290)}...</div>
 
                     <div className="fecha">{el.fecha}</div>
                 </div>
+                
               </div>
 
             ))}
