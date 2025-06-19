@@ -53,9 +53,7 @@ header>h2{
   border: 1px solid transparent;
 }
 
-.noticia>div>img{
-  width: 280px;
-}
+
 
 .titulo{
   font-size: 30px;
@@ -77,9 +75,16 @@ header>h2{
    color: var(--gray-500);
 }
 
+.noticia>div>img{
+    width: 400px;
+  }
+
 @media(max-width:1260px){
   .titulo{
     font-size: 26px;
+  }
+  .noticia>div>img{
+    width: 360px;
   }
 }
 
@@ -91,6 +96,10 @@ header>h2{
   }
   .noticia{
     height: auto;
+  }
+
+  .noticia>div>img{
+    width: 260px;
   }
 }
 
