@@ -222,7 +222,121 @@ import n6 from "../../imgs/noticias/n6.webp";
           {d:'El futuro ya llegó a Sonora. Ahora toca decidir si será compartido.'},
         ],
         fecha:'17 de junio 2025'
-      }
+      },
+
+
+
+
+
+
+
+
+       {
+        img:n5,
+        titulo:'Sonora acelera: movilidad eléctrica y ciudadanos al centro del futuro',
+        descripcionHeader:'En medio del calor y los retos, Sonora también da pasos decididos hacia un futuro más limpio, moderno y participativo. El gobernador Alfonso Durazo ha encabezado recientemente dos iniciativas que marcan un cambio de ritmo en la vida pública del estado: la primera electrolinera pública de Hermosillo y el inicio de una consulta ciudadana para actualizar el Plan Estatal de Desarrollo.',
+        descripcion:[
+
+          {d:'En medio del calor y los retos, Sonora también da pasos decididos hacia un futuro más limpio, moderno y participativo. El gobernador Alfonso Durazo ha encabezado recientemente dos iniciativas que marcan un cambio de ritmo en la vida pública del estado: la primera electrolinera pública de Hermosillo y el inicio de una consulta ciudadana para actualizar el Plan Estatal de Desarrollo.'},
+          {d:'Ambas acciones muestran que el futuro no llega solo: se construye con visión, inversión… y participación.'},
+          {d:'Cargar el futuro: Sonora estrena su primera electrolinera pública ⚡️'}, 
+          {d:'¿Imaginas cargar tu auto eléctrico en Hermosillo en menos de una hora? Ya es posible. La nueva electrolinera pública, inaugurada el 21 de mayo por el gobernador Durazo, está equipada con cinco cargadores rápidos dobles capaces de atender hasta 160 vehículos al día.'},
+
+          {d:'Además, permitirá recargar 21 autobuses eléctricos por noche, parte de la transformación del transporte público que ya se está dejando ver en las calles de la capital sonorense.'},
+          {d:'“Esto marca un antes y un después. Vamos rumbo a una economía descarbonizada”, afirmó Durazo durante el acto inaugural.'},
+          {d:'Con una inversión de 19.4 millones de pesos, la estación también incluye subestación eléctrica, techumbre y espacio habilitado para expansión futura. Se estima que reducirá más de 140 mil toneladas de CO₂ al año, tan solo con su operación actual.'},
+          {d:'Y esto es solo el comienzo.'},
+          
+
+        ],
+        descripcion2:[ 
+
+          {d:'El poder de la voz ciudadana '},
+          {d:'Menos de un mes después, el 9 de junio, Durazo abrió oficialmente los foros de participación ciudadana para la actualización del Plan Estatal de Desarrollo 2022–2027.'},
+          {d:'La sede inaugural fue el Museo de Arte de Sonora (MUSAS), y las mesas de trabajo abarcan temas como:'},
+          
+          {l:'Bienestar con justicia social'},
+          {l:'Desarrollo económico y sustentable'},
+          {l:'Igualdad y derechos universales'},
+          {l:'Gobierno digital'},
+          {l:'Seguridad y cultura de paz'},
+
+          {d:'¿El objetivo? Escuchar, recoger y transformar las propuestas de la sociedad en políticas reales. La actualización también servirá para alinear el rumbo del estado con el nuevo Plan Nacional de Desarrollo.'},
+          {d:'La iniciativa ha sido bien recibida por organizaciones civiles, académicos, jóvenes y representantes comunitarios que por fin ven espacio para que sus voces impacten directamente en la ruta política del estado.'},
+          {d:'¿Y ahora qué?'},
+          {d:'Lo que sigue será clave:'},
+          
+          {l:'Más electrolineras podrían llegar a Guaymas, Obregón o Nogales.'},
+          {l:'Las ideas surgidas en los foros ciudadanos se convertirán en nuevas políticas públicas para 2026.'},
+          {l:'Sonora se fortalece como modelo nacional de movilidad eléctrica e innovación democrática.'},
+
+          {d:'Un estado que escucha y se mueve'},
+          {d:'No es solo una electrolinera. No es solo una mesa de trabajo. Es la señal de que algo se está moviendo: hacia adelante, hacia lo limpio, hacia lo justo. Sonora no se queda atrás, y el gobierno apuesta por conectar los grandes proyectos con las voces de la gente.'},
+          {d:'Movilidad sustentable + participación activa. Así, Sonora acelera… con los pies en la tierra y la mirada en el futuro.'},
+        ],
+        fecha:'17 de junio 2025'
+      },
+
+
+
+
+
+
+      //   {
+      //   img:'',
+      //   titulo:'',
+      //   descripcionHeader:'',
+      //   descripcion:[
+      //     {d:''},
+      //     {d:''},
+      //     {d:''},
+      //     {d:''},
+      //     {d:''},
+      //     {d:''}, 
+
+
+      //     {l:''},
+      //     {l:''},
+      //     {l:''},
+      //     {l:''},
+
+
+      //     {d:''},
+      //     {d:''},
+      //     {d:''},
+      //     {d:''},
+      //     {d:''},
+      //     {d:''},
+
+          
+      //   ],
+      //   descripcion2:[ 
+      //      {d:''},
+      //     {d:''},
+      //     {d:''},
+      //     {d:''},
+      //     {d:''},
+      //     {d:''}, 
+
+          
+      //     {l:''},
+      //     {l:''},
+      //     {l:''},
+      //     {l:''},
+
+
+      //     {d:''},
+      //     {d:''},
+      //     {d:''},
+      //     {d:''},
+      //     {d:''},
+      //     {d:''},
+      //   ],
+      //   fecha:'17 de junio 2025'
+      // },
+
+
+
 
 
     ]
