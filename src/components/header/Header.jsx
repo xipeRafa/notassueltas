@@ -64,6 +64,7 @@ console.log(modalInfo)
 
       <span>NOTAS SUELTAS </span>
       <br />  
+      <hr />
       <br />
 
 
@@ -96,7 +97,7 @@ console.log(modalInfo)
 
                     <div className="fecha">{el.fecha}</div>
                 </div>
-                
+
               </div>
 
             ))}
