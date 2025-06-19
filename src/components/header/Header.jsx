@@ -64,7 +64,6 @@ console.log(modalInfo)
 
       <span>NOTAS SUELTAS </span>
       <br />  
-      <hr />
       <br />
 
 
