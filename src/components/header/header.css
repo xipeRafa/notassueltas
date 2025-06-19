@@ -6,7 +6,6 @@ header{
   background-color: white;
   box-shadow: rgba(30, 30, 93, 0.1) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   color: var(--gray-700);
-  border: 1px solid red;
 }
 
 header>h2{
@@ -37,7 +36,6 @@ header>span{
 
   header>h2{
     font-size: 56px;
-    border: 1px solid red;
   }
 
   header>span{
