@@ -76,15 +76,12 @@ header>h2{
 }
 
 .noticia>div>img{
-    width: 400px;
+    width: 350px;
   }
 
 @media(max-width:1260px){
   .titulo{
     font-size: 26px;
-  }
-  .noticia>div>img{
-    width: 360px;
   }
 }
 
@@ -99,11 +96,22 @@ header>h2{
   }
 
   .noticia>div>img{
-    width: 260px;
+    width: 440px;
+  }
+}
+
+@media(max-width:600px){
+  .noticia>div>img{
+    width: 310px;
   }
 }
 
 
+@media(max-width:400px){
+  .noticia>div>img{
+    width: 260px;
+  }
+}
 
 
 
