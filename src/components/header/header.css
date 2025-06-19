@@ -226,6 +226,13 @@ header>span{
   margin-bottom: 26px!important;
 }
 
+
+
+
+
+
+
+
 @media(max-width:1100px){
 
     .modalNoticia{
@@ -273,6 +280,17 @@ header>span{
     }
 
 }
+
+@media(max-width:600px){
+    .tituloModal{
+      font-size: 16px;
+    } 
+}
+
+
+
+
+
 
 
 .publicidadModal1>img, .publicidadModal2>img, .publicidad4{
