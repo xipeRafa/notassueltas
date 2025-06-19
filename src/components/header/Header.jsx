@@ -158,7 +158,18 @@ console.log(modalInfo)
 
                       {
                         el?.descripcion2?.map((el,i)=> {
-                          return <div key={i} className="descripcionModal">{el.d}{el.l}</div>
+                          return <div key={i} className="descripcionModal">
+                                        {el.d}
+                                        {
+                                          el.l !== undefined &&
+                                            <ul className='ul'>
+                                              <li>{el.l}</li>
+                                            </ul>
+                                        }
+                                        
+                                        
+
+                              </div>
                         })
                       }
 

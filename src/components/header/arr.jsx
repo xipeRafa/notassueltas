@@ -167,8 +167,62 @@ import n6 from "../../imgs/noticias/n6.webp";
           {d:'Porque en Sonora, cada grado extra puede marcar la diferencia entre el riesgo y la tragedia, entre sobrevivir y perder a alguien más. El calor no perdona. Y la indiferencia, tampoco.'},
         ],
         fecha:'16 de junio 2025'
-      }
+      },
 
+
+
+
+
+
+
+
+      {
+        img:n4,
+        titulo:'Sonora en el mapa del Norte: inversión extranjera y alianzas en el USMCA',
+        descripcionHeader:'Mientras el panorama económico global se mantiene volátil, Sonora se posiciona con paso firme como un actor clave en el norte de México. En la última semana, el estado participó en el Foro de Integración Económica USMCA 2025, celebrado en Phoenix, Arizona, consolidando su papel como puente estratégico entre México, Estados Unidos y Canadá.',
+        descripcion:[
+          {d:'Mientras el panorama económico global se mantiene volátil, Sonora se posiciona con paso firme como un actor clave en el norte de México. En la última semana, el estado participó en el Foro de Integración Económica USMCA 2025, celebrado en Phoenix, Arizona, consolidando su papel como puente estratégico entre México, Estados Unidos y Canadá.'},
+          {d:'A la par, el gobierno estatal anunció nuevos proyectos de inversión extranjera para la segunda mitad del año, particularmente en los sectores de manufactura avanzada, energías limpias y agroindustria de exportación. Las cifras y los convenios firmados revelan una apuesta clara por fortalecer la competitividad sonorense a través de cooperación internacional, infraestructura e innovación.'},
+          {d:'El Foro USMCA: Sonora como enlace de América del Norte'},
+          {d:'El USMCA Economic Forum reunió a gobernadores, funcionarios federales, empresarios e inversionistas de los tres países firmantes del tratado comercial (T-MEC en español). Sonora, representado por el secretario de Economía Armando Villa Orduño, participó activamente en las mesas de trabajo sobre cadenas de suministro, electromovilidad y nearshoring.'},
+          {d:'Durante el evento, Villa Orduño destacó la importancia del Plan Sonora de Energía Sostenible, un proyecto estratégico que busca posicionar al estado como líder en energías renovables y proveeduría limpia para industrias binacionales. “El futuro económico de América del Norte se va a jugar en regiones como la nuestra”, afirmó durante su participación.'},
+          {d:'El foro también sirvió como plataforma para que Sonora promueva infraestructura logística clave, como el Puerto de Guaymas, el corredor ferroviario hacia Arizona y el aeropuerto internacional de Hermosillo, que están siendo modernizados con inversión pública y privada.'},
+          {d:'Nuevos capitales: inversión extranjera en puerta'},
+          {d:'Paralelamente, se dieron a conocer cinco nuevos proyectos de inversión extranjera directa (IED) para Sonora, por parte de empresas provenientes de Estados Unidos, Corea del Sur y Alemania. Entre ellos destacan:'},
+
+          {l:'Una planta de componentes automotrices en Nogales, con inversión coreana.'},
+          {l:'Un centro de ensamble de paneles solares en Hermosillo, impulsado por capital alemán.'},
+          {l:'Una nueva empacadora agroindustrial en Caborca, que abastecerá a cadenas estadounidenses.'},
+
+          {d:'Según la Secretaría de Economía, estos proyectos suman más de 5,000 empleos directos y representan una inversión conjunta superior a 320 millones de dólares. El enfoque en tecnología, sustentabilidad y exportación confirma una tendencia clara: Sonora está transicionando hacia una economía de mayor valor agregado.'},
+          {d:'Desafíos del crecimiento: dependencia, empleo y equilibrio local'},
+
+          {d:'Si bien los anuncios de inversión son motivo de optimismo, también despiertan preguntas necesarias sobre la sustentabilidad del modelo. Una de las principales inquietudes entre especialistas es la dependencia del capital extranjero y su impacto real en el desarrollo local.'},
+
+          
+        ],
+        descripcion2:[ 
+          {d:'“Los empleos llegan, pero no siempre con condiciones dignas ni con estabilidad a largo plazo. Y muchas veces los beneficios fiscales que se otorgan a las empresas no se traducen en mejores servicios para la población”, comenta Luis Alberto Montaño, analista económico de la Universidad de Sonora.'},
+          {d:'Además, sectores productivos locales —como micro y pequeñas empresas— enfrentan dificultades para integrarse a las grandes cadenas de valor que traen los nuevos capitales. El riesgo de convertirse en simples proveedores subcontratados o mano de obra barata está latente si no se acompaña esta inversión con políticas de fortalecimiento local.'},
+          {d:'Voces desde el terreno'},
+          {d:'En Hermosillo, las reacciones son diversas. Jazmín Armenta, ingeniera mecatrónica recién egresada, ve en estas inversiones una oportunidad real. “Cada vez hay más empresas tecnológicas que sí están buscando talento joven. Me acaban de entrevistar para una firma alemana que viene al estado”.'},
+          {d:'Por otro lado, Pedro Ramos, representante de una cooperativa agrícola en la costa de Guaymas, cuestiona si el desarrollo será parejo. “No queremos que toda la inversión se concentre en los parques industriales del norte o las ciudades grandes. También en el campo hay necesidad y capacidad de crecer”.'},
+          {d:'Desde el sector empresarial, las cámaras locales han solicitado más transparencia en los convenios firmados y claridad sobre los incentivos que se ofrecen a las empresas foráneas. “Estamos a favor del desarrollo, pero pedimos que se dé en condiciones de equidad y con beneficios para todos”, afirmó en rueda de prensa el presidente de Coparmex Sonora Norte, Víctor Félix.'},
+          {d:'Sonora ante un nuevo horizonte'},
+          {d:'Frente al contexto internacional —marcado por las tensiones comerciales entre China y EE.UU., el auge del nearshoring y la transición energética global— Sonora se encuentra en un momento decisivo. Tiene la infraestructura, la ubicación y la voluntad política para convertirse en un eje estratégico del norte de México, pero también debe actuar con visión de largo plazo.'},
+          {d:'La clave estará en cómo se administran las nuevas inversiones:'},
+
+          {l:'¿Se generarán empleos con derechos?'},
+          {l:'¿Se fortalecerán las cadenas locales?'},
+          {l:'¿Se protegerán los recursos naturales y las comunidades?'},
+          {l:'¿Se distribuirán los beneficios más allá de Hermosillo y la frontera?'},
+
+          {d:'El presente económico de Sonora muestra dinamismo, apertura y oportunidades. Las alianzas generadas en foros como el USMCA y los nuevos flujos de inversión extranjera son señales claras de que el estado está siendo tomado en cuenta a nivel internacional.'},
+          {d:'Pero el crecimiento no es sinónimo automático de justicia ni de sostenibilidad. Hacer de esta etapa una verdadera transformación económica para las y los sonorenses dependerá de las decisiones que se tomen hoy: en los contratos, en los planes de desarrollo, en la formación del talento local y en la escucha de quienes han estado históricamente al margen del progreso.'},
+          {d:'El futuro ya llegó a Sonora. Ahora toca decidir si será compartido.'},
+        ],
+        fecha:'17 de junio 2025'
+      }
 
 
     ]
