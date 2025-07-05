@@ -1,4 +1,4 @@
-import './cenaculos.css'
+import './publicidad.css'
 import { useState } from "react";
 // import img1 from './1.png'
 // import img2 from './2.png'
@@ -7,7 +7,7 @@ import { useState } from "react";
 
 
 
-export default function Cenaculos() {
+export default function Publicidad() {
 
 
   const[displayState, setDisplayState]=useState('1')

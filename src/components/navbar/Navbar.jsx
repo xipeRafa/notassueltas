@@ -23,21 +23,25 @@ export default function Navbar() {
         <div className="navBar">
 
             <div onClick={() => setIsActive(!isActive)} className="hamburger">
-                <div className="menu-bar">
-                    <div className="uno" />
-                    <div className="dos" />
-                    <div className="tres" />
-                </div>
-                <span className='menuX'>{isActive ? "MENU" : "✘"}</span>
+
+                <span className='menuX'>{isActive 
+                    ?   <div className="menu-bar">
+                            <div className="uno" />
+                            <div className="dos" />
+                            <div className="tres" />
+                        </div> 
+                    : "✘"
+                }</span>
+
             </div>
 
             <div className={isActive ? "menu " : "menu display"} onClick={InWidth}>
 
 
-                <Link to="/notassueltas" onClick={()=>window.scrollTo(0,0)}> Inicio </Link>
+                <Link to="/notassueltas" onClick={()=>window.scrollTo(0,0)}> Noticias </Link>
 
 
-                <Link to="/notassueltas/CENACULOS" onClick={()=>window.scrollTo(0,0)}> holis </Link>
+                <Link to="/notassueltas/publicidad" onClick={()=>window.scrollTo(0,0)}> Publicidad </Link>
 
                 {/*<NavLink to="/MLJM/GRUPO" onClick={()=>window.scrollTo(0,0)}> GRUPO </NavLink>
 

@@ -18,7 +18,7 @@ import Header from "./components/header/Header";
 
 
 // import Contacto from "./components/contacto/Contacto";
-import Cenaculos from "./components/cenaculos/Cenaculos";
+import Publicidad from "./components/cenaculos/Publicidad";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
       <Routes>
         <Route path="/notassueltas/" element={<Header />} />
         {/*<Route path="/MLJM/GRUPO" element={<Grupo />} />*/}
-        <Route path="/notassueltas/CENACULOS" element={<Cenaculos />} />
+        <Route path="/notassueltas/publicidad" element={<Publicidad />} />
      {/* 
         <Route path="/MLJM/CONSAGRACIONES" element={<Consagraciones />} />
 

@@ -44,14 +44,11 @@ const scrollToTopDiv = () => {
 
 
     const noticiaHandler=(EL)=>{
-        console.log('EL ===>', EL[0].descripcion)
+        // console.log('EL ===>', EL[0].descripcion)
         setModalInfo(EL)
         setModalState(true)
     }
 
-
-
-console.log(modalInfo)
      
 
 
@@ -81,7 +78,7 @@ console.log(modalInfo)
 
 
       <div className="sombra noticias">
-            {arr.map((el,i)=>(
+            {arr.reverse().map((el,i)=>(
 
               <div key={i} className='noticia' onClick={()=>noticiaHandler([el])}>
 
@@ -92,7 +89,8 @@ console.log(modalInfo)
                 <div>
                     <div className="titulo">{el.titulo}</div>
 
-                    <div className="descripcion">{el.descripcionHeader.slice(0, 290)}...</div>
+                    <div className="descripcion">{el.descripcionHeader.slice(0, 290)}</div>
+                    {/*<span>...</span>*/}
 
                     <div className="fecha">{el.fecha}</div>
                 </div>
@@ -176,9 +174,9 @@ console.log(modalInfo)
                         })
                       }
 
-                       <p>* Redacción Notas Sueltas *</p>
+                      <p>* Redacción Notas Sueltas *</p>
 
-                      <img src={banner1} />
+                      <img className='banner1' src={banner1} />
 
 
                       <button className='regresar regresarBottom1' onClick={()=>{setModalState(false), scrollToTopDiv()}}> ⇦ REGRESAR</button>
@@ -194,6 +192,28 @@ console.log(modalInfo)
                 <br />
 
           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   </header>
 

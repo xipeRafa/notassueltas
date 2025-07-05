@@ -11,22 +11,21 @@
 
 .menuX{
     color: white;
+    font-size: 30px;
+    color: rgba(200, 0, 0, 1.0);
+    margin-bottom: 1px;
 }
 
 
-/* rojo */
+/* azul */
 .menu { 
     display: flex;
     justify-content: space-evenly;
     font-size: 16px;
     text-transform: uppercase;
     padding: 0px;
-    /*background-color: var(--logoColor);*/
-
     background: linear-gradient(90deg, rgba(63, 115, 235, 1) 0%, rgba(30, 73, 217, 1) 51%, rgba(15, 49, 163, 1) 100%);
     user-select: none;
-  
-
 }
 
 /* gris */
@@ -34,11 +33,10 @@
     height: 50px;
     padding:  16px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin: 0 auto;
     /*background-color: var(--logoColor);*/
-        background: linear-gradient(90deg, rgba(63, 115, 235, 1) 0%, rgba(30, 73, 217, 1) 51%, rgba(15, 49, 163, 1) 100%);
-
+    background: linear-gradient(90deg, rgba(63, 115, 235, 1) 0%, rgba(30, 73, 217, 1) 51%, rgba(15, 49, 163, 1) 100%);
     align-items: center;
     cursor: pointer;
     user-select: none;
@@ -100,8 +98,10 @@
 
 .navBar a {
     color: rgb(255, 255, 255);
-    text-decoration: none;
+    /*text-decoration: none;*/
+    text-decoration: underline;
     padding: 14px 10px;
+    font-weight: 500;
  }
 .menu>a:hover   {
    background-color: rgba(0, 0, 0, .2);
