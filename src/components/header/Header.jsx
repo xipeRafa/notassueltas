@@ -78,7 +78,7 @@ const scrollToTopDiv = () => {
 
 
       <div className="sombra noticias">
-            {arr.reverse().map((el,i)=>(
+            {arr.map((el,i)=>(
 
               <div key={i} className='noticia' onClick={()=>noticiaHandler([el])}>
 
