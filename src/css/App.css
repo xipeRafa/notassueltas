@@ -38,15 +38,30 @@ button{
 
 
 .publicidad1{
-  width: 70%;
-  margin-left: 15%;
+  width: 100%;
+  background-color: transparent;
+  box-shadow: none!important;
 }
-@media(max-width:900px){
+
+.publicidad0{
+  width: 100%;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.publicidad0>img, .publicidad1>img{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/*.publicidad1>img{
+  height:100%;
+}*/
+/*@media(max-width:900px){
   .publicidad1{
     width: 100%;
     margin-left: 0;
   }  
-}
+}*/
 
 /*.whatsapp{
     position: fixed;

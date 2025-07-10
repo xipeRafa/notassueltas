@@ -1,7 +1,7 @@
 
 
 import "./css/App.css";
-import publicidad0 from "./imgs/publicidad0.png";
+import publicidad0 from "./imgs/publicidad0.webp";
 import publicidad1 from "./imgs/publicidad1.webp";
 //import whatsapp from "./imgs/descargar.png";
 
@@ -51,7 +51,7 @@ function App() {
       </Routes>
 
 
-      <div className="sombra" style={{margin:'140px 0'}}>
+      <div className="publicidad0" style={{margin:'140px 0'}}>
         <img src={publicidad0} />
       </div>
 
