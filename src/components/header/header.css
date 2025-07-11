@@ -67,7 +67,7 @@ header>span{
 .titulo{
   font-size: 30px;
   padding: 4px;
-  color: var(--gray-700);
+  color: var(--gray-800);
   text-transform: uppercase;
 }
 
@@ -79,13 +79,15 @@ header>span{
   /*text-align: left;*/
 }
 
-.noticia>div>span{
-  color: var(--gray-600);
-}
+/*.noticia>div>span{
+  color: var(--gray-500);
+}*/
 
 
 .fecha{
-   color: var(--gray-500);
+   color: var(--gray-600);
+   font-family: serif;
+   font-style: italic;
 }
 
 .noticia>div>img{
