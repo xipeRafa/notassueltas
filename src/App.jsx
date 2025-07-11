@@ -40,7 +40,7 @@ function App() {
       </Routes>
 
 
-      <div className="publicidad0" style={{margin:'140px 0'}}>
+      <div className="publicidad0">
         <img src={publicidad0} />
       </div>
 

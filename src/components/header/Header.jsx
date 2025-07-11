@@ -110,7 +110,7 @@ const scrollToTopDiv = () => {
 
 
        <div className='sliceButtons'>
-
+{/*
             <button className={sliceState === 0 ? 'd-none' : 'button ml-1'} onClick={()=>{
                                                                   if(sliceState > 0){
                                                                       setSliceState(sliceState - prodByPage)
@@ -119,26 +119,35 @@ const scrollToTopDiv = () => {
                                                                   }
                                                                 }>
                                                                     ⇦ Anterior
-            </button>  
+            </button> */} 
 
 
 
-            <button className={sliceState === prodByPage || sliceState === 0 ? 'd-none' : 'button ml-1'} onClick={()=>{ 
+            {/*<button className={sliceState === prodByPage || sliceState === 0 ? 'd-none' : 'button ml-1'} onClick={()=>{ 
                                                                                                         setSliceState(0)
                                                                                                         window.scrollTo(0,0) 
                                                                                                     }
                                                                                                   }>
-                                                                                                      INICIO
-            </button>   
+                                                                                                      0
+            </button> */}  
+
+
+          <button className={sliceState === 0 ? 'd-none' : 'button mr-1'} onClick={()=>{ 
+                                                                                                        setSliceState(0)
+                                                                                                        window.scrollTo(0,0) 
+                                                                                                    }
+                                                                                                  }>
+                                                                                                      inicio
+            </button> 
 
 
 
-            <button className='button ml-1' onClick={()=>{ 
+            <button className='button' onClick={()=>{ 
                                     if(arr.length > sliceState + prodByPage){
                                         setSliceState(sliceState + prodByPage) 
                                         window.scrollTo(0,0) 
                                     }else{
-                                        setSliceAlert(' No hay mas Noticias')
+                                        setSliceAlert(' No hay mas Notas Sueltas')
                                         setTimeout(()=>{
                                             setSliceAlert('')
                                         },2500)
@@ -149,7 +158,7 @@ const scrollToTopDiv = () => {
             </button>  
 
 
-            <span className='sliceAlert'>{sliceAlert}</span>
+            <p className='sliceAlert'>{sliceAlert}</p>
 
 
             {/*<p className='sliceButtonsP'>De: {sliceState + 1} a: {arr.length > sliceState + prodByPage ? sliceState + prodByPage : arr.length}</p>*/}
