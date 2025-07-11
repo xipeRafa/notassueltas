@@ -71,7 +71,7 @@ body{
 .containerApp{
   width: 94%;
   max-width: 1380px;
-  min-width: 360px;
+  /*min-width: 360px;*/
   margin: 0 auto;
   margin-top: 80px;
   box-sizing: border-box;

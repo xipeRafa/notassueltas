@@ -90,6 +90,7 @@ header>span{
 
 .noticia>div>img{
     width: 350px;
+    margin-right: 10px;
   }
 
 
@@ -112,6 +113,7 @@ header>span{
 
   .noticia>div>img{
     width: 100%;
+    margin-right: 0px;
   }
   .titulo{
     font-size: 20px;
