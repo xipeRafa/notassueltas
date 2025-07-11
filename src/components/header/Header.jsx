@@ -49,6 +49,12 @@ const scrollToTopDiv = () => {
         setModalState(true)
     }
 
+
+    const[sliceState, setSliceState]=useState(0)
+    let prodByPage = 6;
+    const[sliceAlert, setSliceAlert]=useState('')
+
+
      
 
 
@@ -78,7 +84,7 @@ const scrollToTopDiv = () => {
 
 
       <div className="sombra noticias">
-            {arr.map((el,i)=>(
+            {arr.slice(sliceState, sliceState + prodByPage).map((el,i)=>(
 
               <div key={i} className='noticia' onClick={()=>noticiaHandler([el])}>
 
@@ -102,6 +108,57 @@ const scrollToTopDiv = () => {
 
 
 
+
+       <div className='sliceButtons'>
+
+            <button className={sliceState === 0 ? 'd-none' : 'button ml-1'} onClick={()=>{
+                                                                  if(sliceState > 0){
+                                                                      setSliceState(sliceState - prodByPage)
+                                                                      window.scrollTo(0,0)
+                                                                    }
+                                                                  }
+                                                                }>
+                                                                    ⇦ Anterior
+            </button>  
+
+
+
+            <button className={sliceState === prodByPage || sliceState === 0 ? 'd-none' : 'button ml-1'} onClick={()=>{ 
+                                                                                                        setSliceState(0)
+                                                                                                        window.scrollTo(0,0) 
+                                                                                                    }
+                                                                                                  }>
+                                                                                                      INICIO
+            </button>   
+
+
+
+            <button className='button ml-1' onClick={()=>{ 
+                                    if(arr.length > sliceState + prodByPage){
+                                        setSliceState(sliceState + prodByPage) 
+                                        window.scrollTo(0,0) 
+                                    }else{
+                                        setSliceAlert(' No hay mas Noticias')
+                                        setTimeout(()=>{
+                                            setSliceAlert('')
+                                        },2500)
+                                    }
+                                }
+                    }>
+                        Siguiente ⇨ 
+            </button>  
+
+
+            <span className='sliceAlert'>{sliceAlert}</span>
+
+
+            {/*<p className='sliceButtonsP'>De: {sliceState + 1} a: {arr.length > sliceState + prodByPage ? sliceState + prodByPage : arr.length}</p>*/}
+            {/*<p className='sliceButtonsP'>Paginas de {prodByPage} Prod. c/u </p>*/}
+
+        </div>
+
+
+            {/*disabled={arr.length > sliceState + prodByPage ? false : true}*/}
 
 
 

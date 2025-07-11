@@ -10,15 +10,14 @@ import { Routes, Route } from "react-router-dom";
 
 
 import Navbar from "./components/navbar/Navbar";
-//import Grupo from "./components/grupo/Grupo";
+
 import Header from "./components/header/Header";
-//import Consagraciones from "./components/consagraciones/Consagraciones";
+
 
 //import Mensajes from "./components/mensaje/Mensaje";
 
 
-// import Contacto from "./components/contacto/Contacto";
-import Publicidad from "./components/cenaculos/Publicidad";
+import Publicidad from "./components/publicidad/Publicidad";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -33,18 +32,8 @@ function App() {
 
       <Routes>
         <Route path="/notassueltas/" element={<Header />} />
-        {/*<Route path="/MLJM/GRUPO" element={<Grupo />} />*/}
+
         <Route path="/notassueltas/publicidad" element={<Publicidad />} />
-     {/* 
-        <Route path="/MLJM/CONSAGRACIONES" element={<Consagraciones />} />
-
-        <Route path="/MLJM/MENSAJES" element={<Mensajes />} />*/}
-
-
-     {/*   <Route path="/RealControlF/licencias" element={<Licencias />} />
-        <Route path="/RealControlF/clientes" element={<Clientes />} />
-
-        <Route path="/RealControlF/contacto" element={<Contacto />} />*/}
 
         <Route path="*" element={<Header />} />
 
