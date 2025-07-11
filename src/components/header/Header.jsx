@@ -150,7 +150,7 @@ const scrollToTopDiv = () => {
                                         setSliceAlert(' No hay mas Notas Sueltas')
                                         setTimeout(()=>{
                                             setSliceAlert('')
-                                        },2500)
+                                        },3500)
                                     }
                                 }
                     }>

@@ -194,7 +194,7 @@ img{width: 100%;}
   input[type="button"] {
     display: inline-block;
     height: 38px;
-    padding: 0 30px;
+    padding: 0 16px;
     color: rgba(33, 67, 100);
     text-align: center;
     font-size: 11px;
