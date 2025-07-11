@@ -85,9 +85,10 @@ header>span{
 
 
 .fecha{
-   color: var(--gray-600);
+   color: var(--gray-500);
    font-family: serif;
    font-style: italic;
+  font-size: 18px;
 }
 
 .noticia>div>img{
