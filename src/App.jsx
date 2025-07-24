@@ -6,10 +6,10 @@ import publicidad1 from "./imgs/publicidad1.webp";
 //import whatsapp from "./imgs/descargar.png";
 
 
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 
 
-import Navbar from "./components/navbar/Navbar";
+// import Navbar from "./components/navbar/Navbar";
 
 import Header from "./components/header/Header";
 
@@ -24,12 +24,12 @@ function App() {
 
   return (
     <div className="containerApp">
-      <Navbar />
+      {/*<Navbar />*/}
 
       <div className="publicidad1 sombra" >
         <img src={publicidad1}  />
       </div>
-
+{/*
       <Routes>
         <Route path="/notassueltas/" element={<Header />} />
 
@@ -37,9 +37,9 @@ function App() {
 
         <Route path="*" element={<Header />} />
 
-      </Routes>
+      </Routes>*/}
 
-
+<Header />
       <div className="publicidad0">
         <img src={publicidad0} />
       </div>
