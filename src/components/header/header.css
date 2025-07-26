@@ -72,7 +72,7 @@ header>span{
 }
 
 .descripcion{
-  height: 118px;
+  height: 116px;
   overflow: hidden;
   padding: 4px;
   color: var(--gray-600);
