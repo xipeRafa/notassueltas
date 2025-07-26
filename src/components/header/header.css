@@ -75,7 +75,7 @@ header>span{
   height: 116px;
   overflow: hidden;
   padding: 4px;
-  padding-top: 2px;
+  padding-bottom:0;
   color: var(--gray-600);
   /*text-align: left;*/
 }
