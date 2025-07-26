@@ -85,6 +85,7 @@ header>span{
 
 
 .fecha{
+  margin-top: 10px;
    color: var(--gray-500);
    font-family: serif;
    font-style: italic;
@@ -223,6 +224,10 @@ header>span{
   width: 90%;
   margin-left: 5%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: var(--gray-500);
+  font-family: serif;
+  font-style: italic;
+  font-size: 16px;
 }
 
 .descripcionModal{
