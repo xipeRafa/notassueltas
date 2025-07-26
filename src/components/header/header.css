@@ -17,7 +17,7 @@ header>h2{
 
 header>span{
   color:var(--orange);
-  /*font-style: oblique;*/
+  font-style: oblique;
   font-weight: bold;
   font-size: 40px;
 }
