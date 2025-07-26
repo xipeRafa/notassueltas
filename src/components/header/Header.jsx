@@ -95,7 +95,7 @@ const scrollToTopDiv = () => {
                 <div>
                     <div className="titulo">{el.titulo}</div>
 
-                    <div className="descripcion">{el.descripcionHeader.slice(0, 270)+'...'}</div>
+                    <div className="descripcion">{el.descripcionHeader.slice(0, 260)+'...'}</div>
                     {/*<span>...</span>*/}
 
                     <div className="fecha">{el.fecha}</div>
