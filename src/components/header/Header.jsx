@@ -51,7 +51,7 @@ const scrollToTopDiv = () => {
 
 
     const[sliceState, setSliceState]=useState(0)
-    let prodByPage = 15;
+    let prodByPage = 31;
     const[sliceAlert, setSliceAlert]=useState('')
 
 
