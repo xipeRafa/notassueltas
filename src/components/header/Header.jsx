@@ -7,6 +7,8 @@ import './header.css'
 
 import banner1 from "../../imgs/banner-h-ns.webp";
 
+import publicidad1 from "../../imgs/publicidad1.webp";
+
 import publicidad2 from "../../imgs/publicidad2.webp";
 import publicidad3 from "../../imgs/publicidad3.webp";
 import publicidad4 from "../../imgs/publicidad4.webp";
@@ -63,6 +65,7 @@ const scrollToTopDiv = () => {
  return ( <> 
 
   <header>
+
     <h2> BLOG DE NOTICIAS </h2>
 
       <span>NOTAS SUELTAS </span>
@@ -188,6 +191,10 @@ const scrollToTopDiv = () => {
 
           <div className={modalState ? 'modalNoticia' : 'display-none'} ref={divRef}>
 
+                  <div className="publicidad1 sombra" >
+                      <img src={publicidad1}  />
+                  </div>
+
                     <div className='publicidadModal1'>
                          <img src={publicidad3} />
                     </div>
@@ -195,7 +202,7 @@ const scrollToTopDiv = () => {
                   {modalInfo?.map((el,i)=>(
 
                   <div key={i} className='ModalNoticiaInfo'>
-                      <button className='regresar' onClick={()=>{setModalState(false), scrollToTopDiv()}}> ⇦ REGRESAR</button>
+                      {/*<button className='regresar' onClick={()=>{setModalState(false), scrollToTopDiv()}}> ⇦ REGRESAR</button>*/}
 
 
                       <div className="tituloModal">{el.titulo}</div>
@@ -221,7 +228,7 @@ const scrollToTopDiv = () => {
                         })
                       }
 
-                      <img className='publicidad4' src={publicidad4} style={{width:'80%'}}/>
+                      <img className='publicidad4' src={publicidad4} style={{width:'90%'}}/>
 
                       {
                         el?.descripcion2?.map((el,i)=> {
