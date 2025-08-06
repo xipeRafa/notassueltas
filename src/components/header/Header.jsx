@@ -199,6 +199,11 @@ const scrollToTopDiv = () => {
                          <img src={publicidad3} />
                     </div>
 
+                  <div className='headerModal'>
+                    <h2> BLOG DE NOTICIAS </h2>
+                    <span>NOTAS SUELTAS </span>
+                  </div>
+
                   {modalInfo?.map((el,i)=>(
 
                   <div key={i} className='ModalNoticiaInfo'>

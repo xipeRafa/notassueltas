@@ -185,6 +185,25 @@ header>span{
   margin-bottom: 27px!important;
 }
 
+.headerModal{
+  margin-bottom: 12px;
+}
+.headerModal>h2{
+  font-size: 32px;
+  font-family: serif!important;
+  margin:0;
+  color: var(--gray-800);
+}
+
+
+.headerModal>span{
+  color:var(--orange);
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+
 .ModalNoticiaInfo{
   padding: 0 20px;
   width: 64%;
@@ -323,6 +342,10 @@ header>span{
 
 @media(min-width:1100px){
   .regresarBottom2{
+    display: none;
+  }
+
+  .headerModal{
     display: none;
   }
 }
