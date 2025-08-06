@@ -186,8 +186,9 @@ header>span{
 }
 
 .headerModal{
-  margin-bottom: 12px;
+  margin: 12px;
 }
+
 .headerModal>h2{
   font-size: 32px;
   font-family: serif!important;
@@ -278,7 +279,7 @@ header>span{
       width: 90%;
       margin-left: 5%;
       position: static;
-      margin-top: 20px;
+      /*margin-top: 20px;*/
     }
      .publicidadModal2{
       width: 90%;
