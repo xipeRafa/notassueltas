@@ -186,7 +186,8 @@ header>span{
 }
 
 .headerModal{
-  margin: 12px;
+  margin-top: 12px;
+  margin-bottom: 8px;
 }
 
 .headerModal>h2{
