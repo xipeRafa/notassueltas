@@ -1,7 +1,7 @@
 
 
 import "./css/App.css";
-import publicidad0 from "./imgs/publicidad0.webp";
+import publicidad0 from "./imgs/ppublicidad0.webp";
 import publicidad1 from "./imgs/ppublicidad1.webp";
 //import whatsapp from "./imgs/descargar.png";
 
