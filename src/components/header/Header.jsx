@@ -11,7 +11,7 @@ import publicidad1 from "../../imgs/publicidad1.webp";
 
 import publicidad2 from "../../imgs/publicidad2.webp";
 import publicidad3 from "../../imgs/publicidad3.webp";
-import publicidad4 from "../../imgs/ppublicidad4.webp";
+import publicidad4 from "../../imgs/publicidad4.webp";
 // import Banner from '../banner/Banner'
 
 import {arr} from './arr.jsx'

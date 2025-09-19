@@ -75,12 +75,12 @@ button{
 }
 
 
-@media(min-width:1100px){
+/*@media(min-width:1100px){
   .publicidad1{
       width: 90%;
     margin-left: 5%;
   } 
-}
+}*/
 
 /*.whatsapp{
     position: fixed;
