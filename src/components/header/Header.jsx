@@ -9,9 +9,9 @@ import banner1 from "../../imgs/banner-h-ns.webp";
 
 import publicidad1 from "../../imgs/publicidad1.webp";
 
-import publicidad2 from "../../imgs/publicidad2.webp";
-import publicidad3 from "../../imgs/publicidad3.webp";
-import publicidad4 from "../../imgs/publicidad4.webp";
+import publicidad2 from "../../imgs/pppublicidad2.webp";
+import publicidad3 from "../../imgs/pppublicidad3.webp";
+import publicidad4 from "../../imgs/pppublicidad4.webp";
 // import Banner from '../banner/Banner'
 
 import {arr} from './arr.jsx'
@@ -200,7 +200,7 @@ const scrollToTopDiv = () => {
                     </div>
 
                   <div className='headerModal'>
-                    <h2> BLOG DE NOTICIAS </h2>
+                    <h2> BLOG DE NOTICIAS</h2>
                     <span>NOTAS SUELTAS </span>
                   </div>
 
