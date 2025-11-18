@@ -9,9 +9,9 @@ import banner1 from "../../imgs/banner-h-ns.webp";
 
 import publicidad1 from "../../imgs/publicidad1.webp";
 
-import publicidad2 from "../../imgs/pppublicidad2.webp";
-import publicidad3 from "../../imgs/pppublicidad3.webp";
-import publicidad4 from "../../imgs/pppublicidad4.webp";
+import publicidad2 from "../../imgs/ppppublicidad2.png";
+import publicidad3 from "../../imgs/ppppublicidad3.png";
+import publicidad4 from "../../imgs/ppppublicidad4.png";  // publicidad entre texto
 // import Banner from '../banner/Banner'
 
 import {arr} from './arr.jsx'
