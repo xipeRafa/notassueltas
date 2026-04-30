@@ -2,8 +2,8 @@
 
 
 import "./css/App.css";
-import publicidad0 from "./imgs/ppppublicidad0.webp";
-import publicidad1 from "./imgs/b-dic.webp"; /// cambiar aqui.  p
+import publicid from "./imgs/publicid.webp";
+import publicidad1 from "./imgs/publididad1.webp"; /// cambiar aqui.  p
 //import whatsapp from "./imgs/descargar.png";
 
 
@@ -28,7 +28,7 @@ function App() {
       {/*<Navbar />*/}
 
       <div className="publicidad1 sombra" >
-        <img src={publicidad1}  /> 
+        <img src={publicidad1} />
       </div>
 {/*
       <Routes>
@@ -42,7 +42,7 @@ function App() {
 
 <Header />
       <div className="publicidad0">
-        <img src={publicidad0} /> 
+        <img src={publicid} /> 
       </div>
 
     {/*  <a href="https://api.whatsapp.com/send?phone=5216621942066&text=¡Hola, Me Comunico desde su Página Web!" target='_blank'>
