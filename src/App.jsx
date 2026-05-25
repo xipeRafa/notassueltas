@@ -2,8 +2,8 @@
 
 
 import "./css/App.css";
-import publicid from "./imgs/publicid.webp";
-import publicidad1 from "./imgs/publididad1.webp"; /// cambiar aqui.  p
+import publicid from "./imgs/publicid.png";
+import publicidad1 from "./imgs/publididad1.png"; /// cambiar aqui.  p
 //import whatsapp from "./imgs/descargar.png";
 
 
@@ -28,7 +28,7 @@ function App() {
       {/*<Navbar />*/}
 
       <div className="publicidad1 sombra" >
-        <img src={publicidad1} />
+        <img src={publicidad1} /> 
       </div>
 {/*
       <Routes>
