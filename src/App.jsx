@@ -2,7 +2,7 @@
 
 
 import "./css/App.css";
-import publicid from "./imgs/publicid.png";
+import publicid from "./imgs/publicid.webp";
 import publicidad1 from "./imgs/publididad1.png"; /// cambiar aqui.  p
 //import whatsapp from "./imgs/descargar.png";
 
@@ -42,7 +42,7 @@ function App() {
 
 <Header />
       <div className="publicidad0">
-        <img src={publicid} /> 
+        <img src={publicid} />  
       </div>
 
     {/*  <a href="https://api.whatsapp.com/send?phone=5216621942066&text=¡Hola, Me Comunico desde su Página Web!" target='_blank'>

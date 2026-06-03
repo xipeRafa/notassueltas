@@ -9,9 +9,9 @@ import banner1 from "../../imgs/banner-h-ns.webp";
 
 import publicidad1 from "../../imgs/publicidad1.webp";
 
-import publicidad2 from "../../imgs/ppppublicidad2.webp";
-import publicidad3 from "../../imgs/ppppublicidad3.webp";
-import publicidad4 from "../../imgs/ppppublicidad4.webp";  // publicidad entre texto
+import publicidad2 from "../../imgs/publicidad123.webp";
+import publicidad3 from "../../imgs/publicidad123.webp";
+import publicidad4 from "../../imgs/publicid.webp";  // publicidad entre texto
 // import Banner from '../banner/Banner'
 
 import {arr} from './arr.jsx'
@@ -201,7 +201,7 @@ const scrollToTopDiv = () => {
 
                   <div className='headerModal'>
                     <h2> BLOG DE NOTICIAS</h2>
-                    <span>NOTAS SUELTAS </span>
+                    <span>NOTAS SUELTAS</span>
                   </div>
 
                   {modalInfo?.map((el,i)=>(
@@ -233,7 +233,7 @@ const scrollToTopDiv = () => {
                         })
                       }
 
-                      <img className='publicidad4' src={publicidad4} style={{width:'90%'}}/>
+                      <img className='publicidad4' src={publicidad4} style={{width:'90%'}}/> 
 
                       {
                         el?.descripcion2?.map((el,i)=> {
