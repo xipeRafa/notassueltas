@@ -5,13 +5,13 @@ import {useState, useRef} from 'react'
 import './header.css'
 
 
-import banner1 from "../../imgs/banner-h-ns.webp";
+import banner1 from "../../imgs/banner-orange.webp";
 
 import publicidad1 from "../../imgs/publicidad1.webp";
 
 import publicidad2 from "../../imgs/publicidad123.webp";
 import publicidad3 from "../../imgs/publicidad123.webp";
-import publicidad4 from "../../imgs/publicid.webp";  // publicidad entre texto
+import publicidad4 from "../../imgs/medio.webp";  // publicidad entre texto
 // import Banner from '../banner/Banner'
 
 import {arr} from './arr.jsx'

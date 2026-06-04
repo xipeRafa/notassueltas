@@ -1,5 +1,5 @@
 import './footer.css'
-import banner1 from "../../imgs/banner-h-ns.webp";
+import banner1 from "../../imgs/banner-orange.webp";
 
 
 export default function Footer() {

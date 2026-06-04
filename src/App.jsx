@@ -3,7 +3,7 @@
 
 import "./css/App.css";
 import publicid from "./imgs/publicid.webp";
-import publicidad1 from "./imgs/publididad1.png"; /// cambiar aqui.  p
+import publicidad1 from "./imgs/publicidad1.webp"; /// cambiar aqui.  p
 //import whatsapp from "./imgs/descargar.png";
 
 
