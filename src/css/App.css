@@ -63,7 +63,7 @@ button{
 /*.publicidad1>img{
   height:100%;
 }*/
-@media(max-width:1100px){
+/*@media(max-width:1000px){
   .publicidad0{
     width: 95%;
     margin-left: 2.5%;
@@ -72,10 +72,10 @@ button{
     width: 100%;
     margin-left:0;
   } 
-}
+}*/
 
 
-@media(min-width:900px){
+@media(min-width:730px){
   .publicidad1{
       width: 90%;
     margin-left: 5%;
@@ -84,8 +84,8 @@ button{
 
 @media(min-width:1200px){
   .publicidad1{
-      width: 82%;
-    margin-left: 9%;
+      width: 80%;
+    margin-left: 10%;
   } 
 }
 
