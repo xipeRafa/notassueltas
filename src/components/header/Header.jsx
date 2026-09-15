@@ -7,7 +7,7 @@ import './header.css'
 
 import banner1 from "../../imgs/banner-orange.webp";
 
-import publicidad1 from "../../imgs/publicidad1.webp";
+import publicidad1 from "../../imgs/publicid.webp";
 
 import publicidad2 from "../../imgs/publicidad123.webp";
 import publicidad3 from "../../imgs/publicidad123.webp";
